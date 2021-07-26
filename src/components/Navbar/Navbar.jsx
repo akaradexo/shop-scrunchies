@@ -21,7 +21,7 @@ const PrimarySearchAppBar = ({ totalItems }) => {
     <Menu anchorEl={mobileMoreAnchorEl} anchorOrigin={{ vertical: 'top', horizontal: 'right' }} id={mobileMenuId} keepMounted transformOrigin={{ vertical: 'top', horizontal: 'right' }} open={isMobileMenuOpen} onClose={handleMobileMenuClose}>
       <MenuItem>
         <IconButton component={Link} to="/cart" aria-label="Show cart items" color="inherit">
-          <Badge badgeContent={totalItems} color="secondary">
+          <Badge badgeContent={totalItems} color="error">
             <ShoppingCart />
           </Badge>
         </IconButton>
@@ -35,13 +35,13 @@ const PrimarySearchAppBar = ({ totalItems }) => {
       <AppBar position="fixed" className={classes.appBar} color="inherit">
         <Toolbar>
           <Typography component={Link} to="/" variant="h6" className={classes.title} color="inherit">
-            <img src={logo} alt="Carino scrunchies shop" height="25px" className={classes.image} /> CARINO
+            <img src={logo} alt="Carino scrunchies shop" height="25px" className={classes.image} /> C A R I N O
           </Typography>
           <div className={classes.grow} />
           {location.pathname === '/' && (
           <div className={classes.button}>
             <IconButton component={Link} to="/cart" aria-label="Show cart items" color="inherit">
-              <Badge badgeContent={totalItems} color="secondary">
+              <Badge badgeContent={totalItems}  color="error">
                 <ShoppingCart />
               </Badge>
             </IconButton>

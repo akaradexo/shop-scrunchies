@@ -12,6 +12,9 @@ export default makeStyles((theme) => ({
     },
   },
   title: {
+    fontFamily: 'Rufina',
+    fontSize:'25px',
+    fontWeight:'bold',
     flexGrow: 1,
     alignItems: 'center',
     display: 'flex',
