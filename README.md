@@ -1,5 +1,23 @@
 # Getting Started with Create React App
 
+Created fully functional eCommerce application using commerce.js.
+• Reference link - https://lnkd.in/gR4kgtH
+
+• Chec/Commerce. js is an API-first eCommerce platform geared towards developers, designers, and businesses to create custom eCommerce experiences on, web, mobile, and beyond - https://commercejs.com
+/
+• use of stripe.js for online payment - https://stripe.com
+/
+dummy card - 4242 4242 4242 4242 4 242 42 42424
+• material ui - https://material-ui.com
+/
+⌛ This project is not completed yet. ⌛
+Looking forward to add Markdown functionality, likes, comments, and some UI.
+
+Link to website 👇
+https://carino-shop.netlify.app/
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
